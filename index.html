@@ -1,130 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adam Drea's CV">
-    <title>Adam Drea - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h1 {
-            font-size: 24px;
-        }
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        .section {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .contact-info {
-            margin-bottom: 10px;
-        }
-        .contact-info strong {
-            display: inline-block;
-            width: 150px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adam Drea — Cloud Support Engineer portfolio & CV" />
+  <title>Adam Drea | Cloud Portfolio & CV</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="section">
+  <!-- Top Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">AD</a>
+      <div class="nav-links">
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Certs</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a class="cta" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="pill">Cloud • Support • AWS</p>
         <h1>Adam Drea</h1>
-        <p>Tullamore, Offaly</p>
-        <div class="contact-info">
-            <p><strong>Contact:</strong></p>
-            <p><strong>Email:</strong> <a href="mailto:adamdrea@icloud.com">adamdrea@icloud.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="#">LinkedIn Profile</a></p>
+        <p class="subtitle">Cloud Support Engineer | AWS Solutions Architect (Associate)</p>
+        <p class="lead">
+          Final-year <strong>Information Technology Management</strong> student at SETU Carlow with strong hands-on
+          troubleshooting and customer-facing experience. Focused on building secure, scalable cloud solutions and
+          supporting customers effectively.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#experience">View Experience</a>
+          <a class="btn" href="#projects">Projects</a>
         </div>
-    </div>
 
-    <div class="section">
-        <h2>Profile</h2>
-        <p>Third level student currently enrolled in SETU Carlow, studying BSc IT Management. Person oriented with extensive experience in direct-to-consumer sales, enhancing communication skills. Experienced working independently or in teams. Technically minded, enjoying a challenging work environment.</p>
-    </div>
+        <div class="meta">
+          <span>📍 Tullamore, Offaly</span>
+          <span class="dot">•</span>
+          <a href="https://github.com/webdrea" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">•</span>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
 
-    <div class="section">
-        <h2>Education and Training</h2>
-        <ul>
-            <li><strong>BSc IT Management</strong>, SETU Carlow (2022-2026)<br>
-                Year 1 GPA: 59.5<br>
-                Year 2 GPA: 60.6<br>
-                <em>Modules Covered:</em> Applications and Interpersonal Communications, Computer Hardware 1&2, Mathematics 1&2, Networking 1&2, Programming 1&2, Operating Systems, Data Analytics, Networking (Switching, VLAN, Wireless, Routing Concepts), Web Programming, Databases, Business Management.
-            </li>
-            <li><strong>Computer Studies FETAC Level 5</strong>, Moate Business College (2012)</li>
-            <li><strong>Leaving Certificate</strong>, Tullamore College (2011)</li>
-        </ul>
-    </div>
+      <div class="hero-card">
+        <div class="avatar-wrap">
+          <img class="avatar" src="profile-picture.jpg" alt="Adam Drea" />
+        </div>
 
-    <div class="section">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> Java, PHP, SQL Query, JavaScript, HTML</li>
-            <li><strong>System Admin:</strong> Nagios, Grafana, Prometheus, Node Exporter</li>
-            <li><strong>Operating Systems:</strong> iOS, Android, Ubuntu, CentOS, Windows, macOS</li>
-            <li>Experienced in Virtual Machines/Servers</li>
-        </ul>
+        <div class="card">
+          <h2 class="card-title">Quick Highlights</h2>
+          <ul class="checklist">
+            <li>iOS Technical Advisor (Apple)</li>
+            <li>Senior Sales Consultant (Vodafone)</li>
+            <li>Cloud / Systems troubleshooting mindset</li>
+            <li>Web + DB project experience</li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </header>
 
-    <div class="section">
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>Apple Hollyhill (WFH)</strong> - iOS Technical Advisor (July ‘23 – June ‘24)<br>
-                - Successful in training for iOS support role<br>
-                - Receive inbound calls, troubleshoot, and solve iOS issues<br>
-                - Following company procedures and GDPR regulations<br>
-                - Accolades: Best CSAT (Customer Satisfaction Surveys) on my team.
-            </li>
-            <li><strong>Vodafone Retail</strong> - Senior Sales Consultant (April ’19 – Sept ‘22)<br>
-                - Full store operations, EOD cash, weekly stock takes, telecom product sales (Mobile, Broadband, TV)<br>
-                - Managed business accounts, GDPR trained, report creation, tracked KPIs.
-            </li>
-        </ul>
-    </div>
+  <main>
+    <!-- Professional Profile -->
+    <section id="profile" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Professional Profile</h2>
+          <p>
+            Person-oriented, technically minded, and comfortable working independently or in teams. Strong communication
+            skills built through direct-to-consumer roles and technical support experience.
+          </p>
+        </div>
 
-    <div class="section">
-        <h2>Other Work Experience</h2>
-        <ul>
-            <li><strong>Eir Retail</strong> - Sales Role (May ’17 – Apr ’19)</li>
-            <li><strong>Emo Oil Portlaoise Main Office</strong> - Sales Role (June ’16 – May ’17)</li>
-            <li><strong>SalesSense INT</strong> - Sales Role (July ’15 – June ‘16)</li>
-        </ul>
-    </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3>What I’m good at</h3>
+            <ul class="bullets">
+              <li>Breaking down complex issues into clear steps</li>
+              <li>Troubleshooting across devices, OS, and networks</li>
+              <li>Working calmly with customers under pressure</li>
+              <li>Following process, security, and GDPR standards</li>
+            </ul>
+          </article>
 
-    <div class="section">
-        <h2>Personal Projects</h2>
-        <p><strong>Optician Store Management System</strong> - Developed using HTML, CSS, JavaScript, PHP, and SQL.<br>
-        Worked with a team of 5 to create a system for managing stock, orders, eye test booking, and daily operations. Led the UI design to create an intuitive page that effectively handled front-end and back-end integration with a custom database.</p>
-    </div>
+          <article class="card">
+            <h3>Currently focused on</h3>
+            <ul class="bullets">
+              <li>AWS architecture fundamentals (secure, scalable design)</li>
+              <li>Infrastructure concepts and best practices</li>
+              <li>Building clean, responsive web pages</li>
+              <li>Expanding practical projects for a cloud portfolio</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>Interests</h2>
-        <p>Keeping up-to-date with tech, Motors/Car Scene, Travelling, Cooking, Building PCs, Gaming.</p>
-    </div>
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Technical Skills</h2>
+          <p>A practical mix of cloud, support, and development foundations.</p>
+        </div>
 
-    <div class="section">
-        <h2>References</h2>
-        <ul>
-            On Request
-        </ul>
+        <div class="chips">
+          <span class="chip"><strong>Cloud:</strong> AWS Ecosystem • Cloud Security • IaC (learning & using)</span>
+          <span class="chip"><strong>Programming:</strong> Java • PHP • SQL • JavaScript • HTML</span>
+          <span class="chip"><strong>Monitoring:</strong> Nagios • Grafana • Prometheus • Node Exporter</span>
+          <span class="chip"><strong>OS:</strong> Windows • macOS • Ubuntu • CentOS • iOS • Android</span>
+          <span class="chip"><strong>Other:</strong> Virtual Machines/Servers • Troubleshooting • Customer Support</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Industry Certifications</h2>
+          <p>Proof of cloud knowledge and commitment to industry standards.</p>
+        </div>
+
+        <div class="cert-grid">
+          <div class="card cert-card">
+            <div class="badge-embed">
+              <div
+                data-iframe-width="150"
+                data-iframe-height="270"
+                data-share-badge-id="032121a0-eb82-4865-a9a8-b9da45839e7e"
+                data-share-badge-host="https://www.credly.com">
+              </div>
+            </div>
+
+            <div>
+              <h3>AWS Certified Solutions Architect – Associate</h3>
+              <p class="muted">
+                Validated ability to design and deploy robust, secure, and scalable applications on AWS technologies.
+              </p>
+              <p class="muted small">
+                (If your badge ever doesn’t load, it’s usually an adblocker or cross-site script setting.)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <script async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Work Experience</h2>
+          <p>Customer-facing, high-performance environments with strong process and quality requirements.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="card item">
+            <div class="item-head">
+              <h3>Apple Hollyhill (WFH) — iOS Technical Advisor</h3>
+              <span class="tag">Jul 2023 – Jun 2024</span>
+            </div>
+            <ul class="bullets">
+              <li>Handled inbound troubleshooting and resolution for iOS issues</li>
+              <li>Worked within company procedures and GDPR requirements</li>
+              <li>Recognised for team-leading CSAT (customer satisfaction)</li>
+            </ul>
+          </article>
+
+          <article class="card item">
+            <div class="item-head">
+              <h3>Vodafone Retail — Senior Sales Consultant</h3>
+              <span class="tag">Apr 2019 – Sep 2022</span>
+            </div>
+            <ul class="bullets">
+              <li>Full store operations: EOD cash handling, stock takes, sales performance tracking</li>
+              <li>Managed business accounts and created reports; monitored KPIs</li>
+              <li>GDPR trained; delivered customer solutions across Mobile, Broadband, and TV</li>
+            </ul>
+          </article>
+
+          <article class="card item">
+            <div class="item-head">
+              <h3>Other roles</h3>
+              <span class="tag">2015 – 2019</span>
+            </div>
+            <ul class="bullets">
+              <li>Eir Retail — Sales Role (May 2017 – Apr 2019)</li>
+              <li>Emo Oil Portlaoise Main Office — Sales Role (Jun 2016 – May 2017)</li>
+              <li>SalesSense INT — Sales Role (Jul 2015 – Jun 2016)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Education & Training</h2>
+          <p>Academic foundation in IT Management with broad practical modules.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>BSc IT Management — SETU Carlow</h3>
+            <p class="muted">2022 – 2026</p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat-label">Year 1 GPA</span>
+                <span class="stat-value">59.5</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Year 2 GPA</span>
+                <span class="stat-value">60.6</span>
+              </div>
+            </div>
+
+            <details class="details">
+              <summary>Modules covered</summary>
+              <p class="muted">
+                Applications and Interpersonal Communications, Computer Hardware 1&2, Mathematics 1&2, Networking 1&2,
+                Programming 1&2, Operating Systems, Data Analytics, Switching/VLAN/Wireless/Routing Concepts, Web
+                Programming, Databases, Business Management.
+              </p>
+            </details>
+          </article>
+
+          <article class="card">
+            <h3>Additional Education</h3>
+            <ul class="bullets">
+              <li><strong>Computer Studies FETAC Level 5</strong> — Moate Business College (2012)</li>
+              <li><strong>Leaving Certificate</strong> — Tullamore College (2011)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Personal Projects</h2>
+          <p>Selected work that shows problem-solving and delivery.</p>
+        </div>
+
+        <article class="card">
+          <div class="item-head">
+            <h3>Optician Store Management System</h3>
+            <span class="tag">HTML • CSS • JS • PHP • SQL</span>
+          </div>
+          <p class="muted">
+            Built with a team of 5 to manage stock, orders, eye test bookings, and daily operations. I led UI design to
+            deliver an intuitive front-end and supported the integration with a custom database.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Interests</h2>
+          <p>Keeping up-to-date with tech, motors/car scene, travelling, cooking, building PCs, gaming.</p>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Tech & Cloud</span>
+          <span class="chip">Cars / Motors</span>
+          <span class="chip">Travel</span>
+          <span class="chip">Cooking</span>
+          <span class="chip">PC Building</span>
+          <span class="chip">Gaming</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Want to chat about a role, project, or placement? Reach out.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Get in touch</h3>
+            <ul class="contact">
+              <li><span>Email</span><a href="mailto:adamdrea@icloud.com">adamdrea@icloud.com</a></li>
+              <li><span>GitHub</span><a href="https://github.com/webdrea" target="_blank" rel="noopener">github.com/webdrea</a></li>
+              <li><span>LinkedIn</span><a href="#" target="_blank" rel="noopener">Add your LinkedIn link</a></li>
+              <li><span>Location</span><span>Tullamore, Offaly</span></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>References</h3>
+            <p class="muted">Available on request.</p>
+            <p class="muted small">Tip: once you have your LinkedIn URL, swap it into the link above.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Adam Drea</p>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+        <a href="https://github.com/webdrea" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
