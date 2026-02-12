@@ -219,7 +219,6 @@ h1{
   margin-top: 20px;
 }
 
-}
 .card-title{
   margin: 0 0 10px;
   font-size: 16px;
@@ -404,5 +403,6 @@ h1{
   .nav-links{ gap: 8px; }
   .nav-links a{ font-size: 13px; padding: 7px 9px; }
 }
+
 
 
